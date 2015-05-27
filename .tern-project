@@ -1,0 +1,14 @@
+{
+    "libs": [
+        "browser",
+        "jquery",
+        "ecma5"
+    ],
+    "loadEagerly": [
+        "./node_modules/restify/lib/*.js",
+        "./lib/*.js"
+    ],
+    "plugins": {
+        "node": {}
+    }
+}

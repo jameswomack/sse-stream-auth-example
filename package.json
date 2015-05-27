@@ -1,0 +1,27 @@
+{
+  "name": "restify-sse-auth",
+  "version": "2.0.0",
+  "port": 1337,
+  "testPaths": {
+    "sseListen": "/sse"
+  },
+  "description": "Server sent events with auth and dynamic channel generation",
+  "main": "index.js",
+  "scripts": {
+    "insecure": "nodemon index.js",
+    "start": "SECURE_COOKIE=true nodemon index.js"
+  },
+  "author": "jwomack@netflix.com",
+  "license": "ISC",
+  "dependencies": {
+    "merge": "1.2.0",
+    "pem": "1.7.2",
+    "restify": "3.0.2",
+    "restify-cookies": "0.1.1",
+    "segfault-handler": "0.2.4",
+    "sse-stream-auth": "2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.3.7"
+  }
+}
