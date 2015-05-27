@@ -19,7 +19,7 @@
     "restify": "3.0.2",
     "restify-cookies": "0.1.1",
     "segfault-handler": "0.2.4",
-    "sse-stream-auth": "2.0.1"
+    "sse-stream-auth": "^2.0.2"
   },
   "devDependencies": {
     "nodemon": "1.3.7"
